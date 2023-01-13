@@ -6,6 +6,7 @@
 body{
     color: white;
 }
+
 .container{
     border: 2px;
     background-color: hsl(226, 43%, 10%);
@@ -38,6 +39,7 @@ body{
 .jeremy{
     border-radius: 10px solid hsl(226, 43%, 10%);
     grid-area: jeremy;
+    
 }
 
 .orange1{
@@ -64,7 +66,12 @@ body{
     border-radius: 10px;
 }
 
+.blue img{
+    width: 40px;
+    margin-left: 5%;
+    margin-top: 5%;
 
+}
 
 .choose{
     background-color: hsl(235, 46%, 20%);
