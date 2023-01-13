@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+    color: white;
+}
+.container{
+    border: 2px;
+    background-color: hsl(226, 43%, 10%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    border: 2px solid black;
+    height: 70%;
+    width: 70%;
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "jeremy orange1 sblue lred"
+    "jeremy lgreen lpurple lyellow";
+
+}
+
+.image{
+   margin-left: 63%;
+    
+}
+
+
+.jeremy{
+    border-radius: 10px solid hsl(226, 43%, 10%);
+    grid-area: jeremy;
+}
+
+.orange1{
+    grid-area: orange1;
+    
+}
+.sblue{
+    grid-area: sblue;
+}
+.lred{
+    grid-area: lred;
+}
+.lgreen{
+    grid-area: lgreen;
+}
+.lpurple{
+    grid-area: lpurple;
+}
+.lyellow{
+    grid-area: lyellow;
+}
+.blue{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+}
+
+
+
+.choose{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+
+.orange{
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 10px;
+}
+.work{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+
+.lblue{
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 10px;
+}
+.play{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+
+.red{
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+}
+.study{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+
+.green{
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 10px;
+}
+.exercise{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+.purple{
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 10px;
+}
+.social{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+.yellow{
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 10px;
+}
+.selfcare{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
